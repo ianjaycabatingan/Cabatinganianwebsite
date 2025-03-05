@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey Form</title>
+</head>
+<body>
+	<style>
+
+	.container {
+    width: 50%;
+    max-width: 600px; 
+    margin: auto; 
+    padding: 20px; 
+    border: 2px solid black;
+    background-color: beige; 
+    text-align: left; 
+	}
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+	}
+		}
+		h2{
+			background-color: burlywood;
+		}
+		h3{
+			background-color: burlywood;
+		}
+		.buttons{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 1em;
+		}
+		label:not(.others){
+			margin-right: 70px;
+		}
+
+	</style>
+	<div class="container"> 
+		 <h2 align="center" style="background-color: burlywood;">Survey Form</h2>
+	 <h4>Section 1</h4>
+	 <h3>1.1 Which of the following services do you use?</h3>
+
+	<div class="survey">
+		<input type="checkbox" name="survey">
+	 	<label for="name"> Service 1 </label>
+	 	<input type="checkbox" name="survey">
+	 	<label for="name"> Service 2 </label><br>
+	 	<input type="checkbox" name="survey">
+	 	<label for="name"> Service 3 </label>
+	 	<input type="checkbox" name="survey">
+	 	<label for="name"> Service 4 </label><br>
+	 	<input type="checkbox" name="survey">
+	 	<label for="name" class="others"> Other </label> <input type="textarea" name="text">
+	 	
+	</div>
+	 
+	 <h3>1.2 How would you rate our services with our service in terms of...</h3>
+	 <table border="1">
+	 	<tr>
+	 		<th style="background-color: burlywood;"></th>
+	 		<style>
+		input[type="radio"]{
+				accent-color: BEIGE;
+			}
+	</style>
+	 		<th style="background-color: burlywood; color: black;">Excellent</th>
+	 		<th style="background-color: burlywood; color: black;" >Very Good</th>
+	 		<th style="background-color: burlywood; color: black;">Good</th>
+	 		<th style="background-color: burlywood; color: black;">Fair</th>
+	 		<th style="background-color: burlywood; color: black;">Poor</th>
+	 	</tr>
+	 	<tr>
+	 		<td>Your Overall Experience</td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 	<tr>
+	 		<td>The Value of our service</td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 	</tr>
+	 	<tr>
+	 		<td>Promptness of our service</td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 	</tr>
+	 	<tr>
+	 		<td>The Courtesy of our staff</td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 		<td><input type="radio" name="survey"></td>
+	 	</tr>
+	 </table>
+
+	 <h3>1.3 Any comments or suggestions</h3>
+	 <textarea rows="4" cols="40"></textarea>
+
+	 <h4>Section 2</h4>
+	 <h3>How may we reach you?(optional)</h3>
+	 <label for="name" class="others">Your name:</label>
+	 <input type="text"><br>
+	 <label for="name" class="others">Phone:</label>
+	 <input type="text"><br>
+	 <label for="name" class="others">Email:</label>
+	 <input type="text"><br><br>
+
+	 <div class="buttons">
+	 	 <input style= "background-color:burlywood; color:black" type="submit">
+	<input style= "background-color:burlywood; color:black" type="reset">
+	 </div>
+	
+
+	 </fieldset>
+
+
+
+	 </div>
+	
+	
+
+</body>
+</html>
